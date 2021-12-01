@@ -220,6 +220,13 @@ select {
 	margin-top: 0px;
 }
 
+.inscripcion {
+  text-align: end;
+  font-size: 20px;
+  background: #52A53B;
+  padding: 15px;
+}
+
 
 /* NOSOTROS */ 
 
@@ -591,10 +598,17 @@ padding: 20px;
   height: 100%;
 }
 .h2-tienda {
-  display: inline-block;
-	margin-top: 0px;
-	text-align: center;
-	background-color:#007200;
+	text-align: end;
+  font-size: 30px;
+  width: 100%;
+}
+
+.row {
+  width: auto;
+}
+
+.contenedor-tienda {
+ height: auto;
 }
 
 @media (max-width: 948px) {
@@ -689,14 +703,23 @@ footer {
   z-index: 1;
 }
 
-.col-lg-3 .col-xs-6 .border {
-  height: 50%;
-  padding: 50px;
+.col-lg-3 .col-xs-12 {
+ height: 100px;
 }
 
 .img-fluid{
 height: 100%;
 margin: auto;
 align-items: center;
+}
+.h2-tienda {
+	text-align: center;
+  font-size: 30px;
+  width: 100%;
+  padding: 15px;
+}
+
+.inscripcion {
+  text-align: center;
 }
 }
