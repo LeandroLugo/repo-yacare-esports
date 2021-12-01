@@ -74,7 +74,7 @@ color: #035423;
 
 .h2  {
 	margin-top: 0px;
-	text-align: center;
+	text-align: center; !important
 	background-color:#007200;
 }
 
